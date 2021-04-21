@@ -1,5 +1,5 @@
 # HallSensor-Conditioner
-Speeduino Hall sensor conditioner board with buffering
+Speeduino Hall sensor conditioner board with buffering:   
 This project is a dual Hall effect sensor conditioner board designed with the form factor to plug into a Speeduino ECU
 The conditioner has many features to help diagnostics, protect the mcu, and configuration for different engines.
 - Dual Channel
