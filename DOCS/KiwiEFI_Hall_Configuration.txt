@@ -1,0 +1,53 @@
+KiwiEfi HALL TRIGGER CONDITIONER CONFIGURATION
+Please refer to the schematic pdf
+(Default) is as jumpered when purchased from KiwiEFI
+
+
+INPUT GROUNDS
+CNK-   JP1 when CLOSED grounds the Crank- (negative) input (Default)
+CAM-   JP8 when CLOSED grounds the Cam- (negative) input  (Default)
+
+
+
+INPUT FILTERS
+CNK Filter   JP2 CLOSED = Level 1 filtering
+                  JP3 CLOSED = Level 2 filtering
+                  Both CLOSED = Level 3 filtering  (Default)
+
+
+CAN Filter   JP9 CLOSED = Level 1 filtering
+                 JP10 CLOSED = Level 2 filtering
+                 Both CLOSED = Level 3 filtering  (Default)
+
+The default setting is Level 3 (maximum filtering) which should be suitable for a sensor up to about 24 teeth
+Level 2 should be suitable for a sensor of 24 - 48 teeth
+Level 1 should be suitable for a sensor of 48 - 60+ teeth 
+
+NOTE: - any filtering on the Speeduino board should be removed
+          - pullups on the Speeduino board can be enabled or not, they have no effect
+
+
+
+OUTPUT POLARITY 
+CNK Polarity  JP4 1-2 = output signal is the same polarity as input  (Default)
+                    JP4 2-3 = input to output signal is inverted 
+
+CAM Polarity  JP6 1-2 = output signal is the same polarity as input  (Default)
+                     JP6 2-3 = input to output signal is inverted 
+
+
+
+
+LED POLARITY  
+CNK LED Polarity JP5 1-2 = LED is turned on when input is negative  (Default)
+                          JP5 2-3 = LED is turned on when input is positive
+
+CAM LED Polarity JP7 1-2 = LED is turned on when input is negative  (Default)
+                          JP7 2-3 = LED is turned on when input is positive
+ 
+
+
+
+OPTIONAL RESISTORS R2 and R5 - the pullup resistors are 1K by default, by adding parralel resistors (R2 and R5) the pullup current can be increased if required.
+ 
+
