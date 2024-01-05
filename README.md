@@ -8,3 +8,5 @@ The conditioner has many features to help diagnostics, protect the mcu, and conf
 - Selectable signal filtering
 - Selectable signal polarity invert function
 - Selectable inversion of the indicator LEDs to suit the polarity of the input signal
+
+![image](https://github.com/Neil427/Speeduino-Hall-Trigger-Conditioner/assets/67580691/646d4909-7bd9-43e1-8025-1255266a82c7)
